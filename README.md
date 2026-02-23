@@ -1,7 +1,7 @@
 # PBW
 # Mini Project Shopping Cart Flutter
 
-Nama  : Asriah AinuN Fazah  
+Nama  : Asriah Ainun Fazah  
 NIM   : 2409116068  
 Kelas : Pemrograman Aplikasi Bergerak  
 
