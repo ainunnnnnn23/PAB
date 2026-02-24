@@ -48,4 +48,33 @@ Berikut adalah poin-poin teknis pengerjaan yang diimplementasikan:
 
 **- Navigation:** Penggunaan Navigator.push untuk perpindahan antar halaman dari daftar produk ke keranjang hingga ke proses checkout.
 
+<img width="331" height="82" alt="image" src="https://github.com/user-attachments/assets/6398c1fb-603e-4e9a-9caa-f65fa686c5da" />
+
+
+
+**Dokumentasi Hasil Pengerjaan:**
+
+<img width="397" height="542" alt="image" src="https://github.com/user-attachments/assets/a7008f05-2a94-4ca3-9ee2-32ff51e545d3" />
+
+- Kategori Elektronik
+
+<img width="401" height="541" alt="image" src="https://github.com/user-attachments/assets/6551500e-b55c-4e80-bed5-da78ba96160b" />
+
+- Kategori Gadget
+
+<img width="398" height="543" alt="image" src="https://github.com/user-attachments/assets/70a17d11-1ca9-41b1-8209-e14f1cbdb60d" />
+
+- Kategori Aksesoris
+
+<img width="395" height="536" alt="image" src="https://github.com/user-attachments/assets/16134947-7fb9-4318-90b3-55716471eed9" />
+
+**Halaman Keranjang:**
+
+<img width="394" height="535" alt="image" src="https://github.com/user-attachments/assets/2b9cfbcd-a4ab-43f0-befd-82bb153153b1" />
+
+**Halaman Checkout:**
+
+<img width="393" height="532" alt="image" src="https://github.com/user-attachments/assets/16cb2ceb-7c7f-4e4f-b719-cca3a1e13b44" />
+
+
 
