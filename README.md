@@ -1,5 +1,5 @@
 # PBW
-# Mini Project Shopping Cart Flutter
+# Project Shopping Cart Flutter
 
 Nama  : Asriah Ainun Fazah  
 NIM   : 2409116068  
@@ -11,20 +11,41 @@ Aplikasi ini menampilkan daftar produk, menambahkan produk ke keranjang,
 mengatur jumlah item, dan menghitung total harga secara otomatis.
 
 ## Fitur
-- Product list
-- Add to cart
-- Cart badge (jumlah item)
-- Increase & decrease quantity
-- Remove item
-- Total harga otomatis
-- Empty cart message
+Fitur Wajib (Core Features)
+- **Add to Cart from Product List:** Pengguna dapat menambahkan produk langsung dari halaman utama ke dalam keranjang.
 
-## Teknologi
-- Flutter
-- Dart
-- Provider (State Management)
+- **Show Cart Items with Quantity:** Menampilkan daftar item di dalam keranjang lengkap dengan jumlah (kuantitas) tiap barang.
 
-## Cara Menjalankan
-1. Clone repository
-2. Jalankan `flutter pub get`
-3. Jalankan `flutter run`
+- **Update Quantity (+/-):** Tersedia tombol untuk menambah atau mengurangi jumlah barang secara reaktif di halaman keranjang.
+
+- **Remove Items from Cart:** Fitur untuk menghapus produk tertentu dari keranjang belanja.
+
+- **Display Total Price Correctly:** Perhitungan total harga dilakukan secara otomatis dan akurat berdasarkan jumlah barang yang dipilih.
+
+Fitur Bonus (Extra Features)
+- **Search/Filter:** Pengguna dapat mencari produk berdasarkan nama menggunakan fitur search bar.
+
+- **Categories:** Filter produk berdasarkan kategori tertentu (Electronics, Gadget, Accessories) menggunakan dropdown.
+
+- **Checkout Page:** Halaman khusus untuk meninjau ringkasan pesanan (order summary) dan pengisian formulir data diri sebelum melakukan pemesanan.
+
+Dokumentasi Implementasi Kode
+Berikut adalah poin-poin teknis pengerjaan yang diimplementasikan:
+
+**- State Management:** Menggunakan **ChangeNotifierProvider** di level aplikasi (main.dart) agar data keranjang dapat diakses secara global oleh seluruh halaman.
+
+<img width="249" height="49" alt="image" src="https://github.com/user-attachments/assets/1b24ded2-295f-48d3-b2af-546f2e144727" />
+
+
+**- Data Consistency:** Menggunakan **notifyListeners()** pada CartModel untuk memastikan UI selalu terupdate setiap kali ada perubahan pada data keranjang (tambah/kurang/hapus).
+
+<img width="154" height="31" alt="image" src="https://github.com/user-attachments/assets/aff0f0f3-029c-46ff-80f2-74b14d5151da" />
+
+
+**- Validation:** Implementasi logika di mana jika kuantitas barang dikurangi hingga angka 0, maka produk tersebut otomatis terhapus dari keranjang.
+
+<img width="533" height="196" alt="image" src="https://github.com/user-attachments/assets/f88bfd4d-ca5e-4ff9-9f82-77811476c457" />
+
+**- Navigation:** Penggunaan Navigator.push untuk perpindahan antar halaman dari daftar produk ke keranjang hingga ke proses checkout.
+
+
